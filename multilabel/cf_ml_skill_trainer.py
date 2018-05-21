@@ -80,7 +80,7 @@ ex_classifier.fit(X_train, Y)
 #                   "Box jumps",
 #                   "135 pounds Squat",
 #                   "turkish swing"])
-#predicted = classifier.predict(X_test)
+#predicted = ex_classifier.predict(X_test)
 #all_labels = lb.inverse_transform(predicted)
 
 #for item, labels in zip(X_test, all_labels):
